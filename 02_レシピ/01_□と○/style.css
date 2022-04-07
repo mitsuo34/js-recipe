@@ -5,3 +5,17 @@
   padding: 20px 50px;
   border: 10px solid red;
 }
+
+.transition {
+  transition: all 1s;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background: black;
+}
+
+.rounded {
+  border-radius: 50%;
+}
