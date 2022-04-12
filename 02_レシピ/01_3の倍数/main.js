@@ -1,9 +1,8 @@
 const inputNumber = document.getElementById("number")
 const send = document.getElementById("send")
-const number = inputNumber.value
 
-const genki = function (Number) {
-  for (let i = 1; i < Number; i++) {
+const genki = function (num) {
+  for (let i = 1; i < num; i++) {
     if (i % 3 === 0) {
       console.log(i + "!!!!")
     } else {
@@ -13,5 +12,6 @@ const genki = function (Number) {
 }
 
 send.onclick = function () {
+  let number = inputNumber.value
   genki(number)
 }
